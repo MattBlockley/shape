@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  width: 400px;
+}
+
+svg path {
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+label, span {
+  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.shape-name {
+  margin-bottom: 10px;
+}
+
+.download {
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+}
